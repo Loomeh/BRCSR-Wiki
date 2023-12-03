@@ -1,5 +1,5 @@
 # This is literally just a copy of the Titanfall 2 SR Wiki that's been repurposed for BRC
-## Check that out [here](https://TF2SR.github.io/TF2SR-Wiki)
+## Check that out [here](https://github.com/TF2SR/TF2SR-Wiki)
 
 # BRC Wiki
 
