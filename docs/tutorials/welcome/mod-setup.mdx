@@ -86,6 +86,17 @@ You can download the mod directly through [r2modman](https://thunderstore.io/pac
 
 If you prefer to download it manually, you can do so from [Loomeh's GitHub](https://github.com/Loomeh/SpeedrunUtils/releases/).
 
+:::note
+IMPORTANT: The autosplitting and load removing features in SpeedrunUtils require the LiveSplit Server plugin to be installed.
+
+* Download the [LiveSplit Server Component](https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.19)
+* Extract its contents into your LiveSplit Components folder
+* Then add the LiveSplit Server component to your LiveSplit layout by going to Edit Layout -> Add -> Control -> LiveSplit Server.
+* Activate the server by right click LiveSplit -> Control -> Start Server.
+
+The in-game SpeedrunUtils menu should say "Connected to LiveSplit" in bright green text if you've set this up correctly.
+:::
+
 #### Configuration:
 
 Once you have both **BepInExPack** and **Speedrunutils** installed, click the `Start modded` button in the top left corner of the profile window. Doing so will create the config files for SpeedrunUtils. Once the game starts, you can close it then navigate to the `Config Editor` tab in the profile window. You may click on a config file and click the `Edit Config` button to edit the files directly in the profile window. The following are the namess of files and their uses:
@@ -93,9 +104,9 @@ Once you have both **BepInExPack** and **Speedrunutils** installed, click the `S
 * **FPS**: Allows you to set the default frame rate cap of the game
 * **Keys**: Allows you to change the keybinds for FPS limit, FPS uncap, and auto mash toggles
 * **Settings**: Allows you to adjust the size and position of the FPS display, enable/disable automash on startup, and unlock fps during loading screens
-* **Splits**: Allows you to set what in-game events do/do not auto split. It is set to the any% splits by default.
+* **Splits**: Allows you to set what in-game events do/do not auto split. It is set to the any% splits by default. (Note, you can configure splits in-game with the SpeedrunUtils menu, editing this file directly is unnecessary.)
 
-Unfortunately for controller players you cannot bind controller buttons directly for SpeedrunUtils commands. You can however set a single button to a keystroke using steam controller settings (pictured below) or if you have the game on GoG you can use a program like [JoyToKey](https://joytokey.net/en/). 
+Unfortunately for controller players you cannot bind controller buttons directly for SpeedrunUtils commands. You can however set a single button to a keystroke using Steam Input (pictured below) or if you have the game on GoG you can use a program like [JoyToKey](https://joytokey.net/en/). 
 
 :::note
 Make sure the button is bound to a single keystroke. Failure to do this may invalidate your run.
